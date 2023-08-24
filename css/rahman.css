@@ -1,0 +1,417 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+.container{
+    width: 940px;
+    margin: auto;
+}
+
+img{
+    vertical-align: middle;
+}
+
+.tittle{
+    text-align: center;
+  
+}
+.tittle h3{
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    color: #333333;
+    font-weight: 500;
+    position: relative;
+    display: inline-block;
+    
+
+}
+.tittle h3 img{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    
+}
+.clear_both{
+    clear: both;
+}
+
+.paragraph{
+    font-size: 13px;
+    color: #666666;
+    line-height: 24px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.heading{
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    color: #333333;
+    
+}
+.are{
+    margin-right: 0px !important;
+}
+
+/* common css end */
+
+
+/* =======================
+   header top start
+========================= */
+#header{
+    height: 32px;
+    background-color: #0066cc;
+}
+#header .header_one{
+    float: left;
+    width: 50%;
+    
+}
+#header .header_two{
+   float: left;
+    width: 50%;
+    text-align: right;
+}
+
+#header p{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 32px;
+   
+}
+
+#header a i{
+ color: #ffffff;
+ margin-left: 20px;
+ line-height: 32px;
+ font-size: 14px;
+ line-height: 32px;
+}
+#header a i:hover{
+   color: #333333;
+}
+
+
+/* =======================
+   header top end
+========================= */
+
+/* =======================
+   navber  top start
+========================= */
+
+#main_manu{
+    height: 80px;
+    
+    background-color: #ffffff;
+}
+#main_manu .logo{
+    width: 20%;
+    height: 80px;
+    float: left;
+    
+}
+#main_manu .logo a{
+    line-height: 80px;
+}
+#main_manu .manu{
+    float: left;
+    width: 80%;
+    text-align:right ;
+    
+}
+#main_manu .manu ul li{
+    display: inline-block;
+    line-height: 80px;
+   
+}
+#main_manu .manu ul li a{
+    margin-left: 15px;
+    font-size: 14px;
+    color: #333333;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+#main_manu .manu ul li a:hover{
+    color: #0066cc;
+}
+
+/* =======================
+   navber top end
+========================= */
+
+
+/* =======================
+   banner top start
+========================= */
+
+#banner{
+    background: url(../images/banner.png) no-repeat center ;
+    background-size: cover;
+    text-align: right;
+   
+}
+#banner .banner_over{
+    padding: 88px 0px;
+    background-color: rgba(0, 0,0, 0.6);
+}
+
+#banner h2{
+    font-size: 30px;
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+#banner h1{
+    font-size: 40px;
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+}
+
+#banner p{
+    font-size: 13px;
+    line-height: 24px;
+    width: 440px;
+
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    margin: 20px 0px 20px auto;
+}
+
+#banner a{
+    font-size: 14px;
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    border: 1px solid white;
+    padding: 10px 20px;
+    margin-left: 20px;
+
+}
+#banner .us{
+    background-color: #0066cc;
+    border-color: #0066cc;
+}
+#banner .us:hover{
+    background-color: transparent;
+    border-color: #ffffff;
+}
+
+#banner .con:hover{
+    background-color: #0066cc;
+    border-color: #0066cc;
+}
+
+/* =======================
+   banner top end
+========================= */
+
+
+/* =======================
+   about top start
+========================= */
+#about{
+    padding: 60px 0px;
+}
+#about .tittle{
+    margin-bottom: 40px;
+}
+
+#about .about_img{
+    width: 380px;
+    float: left;
+    margin-right: 20px;
+    
+}
+#about .about_text{
+    width: 540px;
+    float: left;
+    
+}
+#about .about_text p{
+    margin-top: 35px;
+}
+#about .about_text p span{
+    display: inline-block;
+    margin-top: 40px;
+}
+
+
+
+/* =======================
+   about top end
+========================= */
+
+/* =======================
+   service top start
+========================= */
+
+#services{
+    padding-bottom: 60px
+}
+#services .tittle{
+    padding-bottom: 65px;
+}
+#services .card .card_desc{
+    width: 250px;
+    float: left;
+    background-color: #ebebeb;
+    margin-right: 17px;
+    text-align: center;
+    padding: 51px 21px 21px 21px;
+    position: relative;
+    transition: .4s;
+   
+}
+#services .card .card_desc h3{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+
+#services .card_desc .round_1{
+    width: 81px;
+    height: 81px;
+    background-color: #e2e2e2;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    
+
+}
+#services .card_desc:hover .round_1{
+    box-shadow: 0 0 0.8px 0 rgb(136, 134, 134);
+}
+#services .card_desc .round_2{
+    width: 74px;
+    height: 74px;
+    background-color: #f1f1f1;
+    position: absolute;
+    border: 1px solid #f1f1f1;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    transition: .4s;
+    
+}
+#services .card_desc:hover .round_2{
+    border-color: #66ccff;
+}
+#services .card_desc .round_3{
+    width: 68px;
+    height: 68px;
+    background-color: #f1f1f1;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    transition: .4s;
+    
+
+}
+
+#services .card_desc:hover .round_3{
+    background-color:#0066ff;
+}
+#services .card_desc .round_3 img{
+   
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    
+   
+}
+
+
+
+/* =======================
+   service top end
+========================= */
+
+
+
+/* =======================
+   protfolio top start
+========================= */
+
+#protfolio{
+    padding-bottom: 60px;
+}
+#protfolio .tittle{
+    margin-bottom: 60px;
+}
+
+#protfolio .item {
+    width: 220px;
+    float: left;
+    margin-right: 20px;
+}
+#protfolio .item .a_img{
+    margin-bottom: 20px;
+    position: relative;
+}
+#protfolio .item .b_img{
+    
+    position: relative;
+}
+
+
+#protfolio .item .over{
+    position: absolute;
+    background-color:rgba(0, 0, 0, 0.6) ;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    transition: 1s;
+    transform: scale(0);
+}
+#protfolio .item  .a_img:hover .over {
+    transform: scale(1);
+    cursor: pointer;
+
+}
+#protfolio .item  .b_img:hover .over {
+    transform: scale(1);
+    cursor: pointer;
+
+}
+#protfolio .item .over a {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% ,-50%);
+}
+
+#protfolio .item .over a i{
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    background-color: #0066cc;
+    border-radius: 50%;
+}
+/* =======================
+   protfolio top end
+========================= */
